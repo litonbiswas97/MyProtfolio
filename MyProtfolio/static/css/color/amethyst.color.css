@@ -1,0 +1,96 @@
+
+
+/*
+    Start Amethyst Theme Color
+========================================= */
+/*  Background Color */
+.manbi-btn:hover,
+.navigation-area .navbar-toggle .icon-bar,
+.navigation-area .navbar-nav > li > a:after,
+.navigation-area .navbar-nav li.active a::before,
+.ProgressBarArea .progress::after,
+.contact-filed input:focus ~ i.fa,
+.contact-filed textarea:focus ~ i.fa,
+.social-link a:hover,
+.MnabiPreloder .spinner,
+.tag_list a:hover,
+.divider,
+.blog-pagination ul li.active a,
+.header-text::before,
+.blog-pagination ul li a:hover{
+  background: #9b59b6;
+}
+/* Color */
+.nav > li > a:focus, 
+.nav > li > a:hover,
+.navigation-area .navbar-nav > li > a:hover,
+.is-sticky .navigation-area .navbar-nav > li > a:hover,
+.is-sticky .navigation-area .navbar-nav > li.active > a,
+.experiacneArea h4 span,
+.HCS-Item .fa,
+.HCS-Item span,
+.mixitup-control ul li.active,
+.mix-caption-tcell,
+.mfp-close, 
+.mfp-counter,
+#testimonial-slide::before,
+#testimonial-slide::after,
+.contact-form .manbi-btn,
+.contact-filed i.fa,
+.footer-copyihgt span,
+.social-link a,
+.ScrollToTop a,
+.navigation-area .navbar-nav li.active a,
+.breadcrumb a:hover,
+.breadcrumb li.active,
+.search-box .btn.btn-default,
+.recent_post_content > a:hover,
+.header-text p,
+.blog_meta i.fa,
+.blog_content a:hover,
+.blog_btn.manbi-btn,
+.categories-item a:hover{
+  color: #9b59b6 ;
+}
+
+/*  Border Color */
+.navigation-area .navbar-toggle,
+.HCS-Item .fa,
+.social-link a,
+.ScrollToTop a,
+.contact-form input:focus,
+.contact-form textarea:focus,
+.search-box .form-control,
+.blog_box:hover{
+    border: 1px;
+}
+.mfp-arrow-left::after {
+    border-right: 17px solid #9b59b6;
+}
+.mfp-arrow-right::after {
+    border-left: 17px solid #9b59b6;
+}
+.contact-form input:focus,
+.contact-form textarea:focus{
+    box-shadow: 0 0 0 #9b59b6;
+    -webkit-box-shadow: 0 0 0 #9b59b6;
+}
+.navigation-area .navbar-toggle,
+.HCS-Item .fa,
+.contact-form input:focus,
+.contact-form textarea:focus,
+.social-link a,
+.ScrollToTop a,
+.search-box .form-control,
+.blog_box:hover,
+.comment_form .form-control:focus{
+    border-color: #9b59b6 ;
+    border-style: solid;
+}
+.social-link a:hover,
+.contact-form .manbi-btn:hover{
+    color: #111111;
+}
+.categories-item a:hover{
+    border-color: #9b59b6;
+}

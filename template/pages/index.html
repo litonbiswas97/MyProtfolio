@@ -1,0 +1,648 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <!-- Meta Tage -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="MNABI - Personal CV / Resume / Portfolio HTML5 Template">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Web Site Title -->
+    <title> Liton Kumar Biswas - Personal CV / Resume / Portfolio HTML5 Template </title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'img/favicon.png' %}">
+    <!--
+        Stylesheet
+    ==================================== -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-3.3.7.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/normalize-5.0.0.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/owl.carousel.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/owl.theme.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/owl.transitions.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
+    <!-- Custom Style  -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/responsive.css' %}">
+</head>
+<body>
+<div id="home"></div>
+
+<!--
+    Preloader
+==================================== -->
+<div class="MnabiPreloder">
+    <div class="spinner"></div>
+</div>
+
+<!--
+    Header
+==================================== -->
+<header id="header" class="parallax-bg wow fadeIn">
+    <div id="particles-js"></div>
+    <img class="autor_image" src="{% static 'img/author.jpg' %}" alt="Author Pictuer">
+    <div class="container">
+        <div class="header_content">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-6 col-xs-10 col-xs-offset-1">
+                    <div class="header-text">
+                        <h3>Hi, I am</h3>
+                        <h1>Liton Kumar Biswas</h1>
+                        <div class="typing-title">
+                            <p>Web Developer</p>
+                            <p>UI/UX Designer</p>
+                            <p>Photographer</p>
+                        </div>
+                        <p><span class="typed-title"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--
+    Navigation
+===================================== -->
+<nav class="navigation-area stickyNav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="brand-logo"><a class="" href="{% url 'index' %}"><img src="{% static 'img/logo.png' %}"
+                                                                              alt="logo"></a>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav ">
+                <li class="active smooth-scroll"><a href="{% url 'index' %}">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="smooth-scroll"><a href="#About">About Me</a></li>
+                <li class="smooth-scroll"><a href="#experiacne">Experience</a></li>
+                <li class="smooth-scroll"><a href="#portfolio">Portfolio</a></li>
+                <li class="smooth-scroll"><a href="#blog">blog</a></li>
+                <li class="smooth-scroll"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--
+    About Section
+===================================== -->
+<section id="About" class="spacing">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-10 col-sm-offset-1 col-md-offset-0">
+                <div class="row">
+                    <div class="col-md-5 col-sm-5">
+                        <div class="author-photo fadeInUp wow">
+                            <img src="{% static 'img/author-photo.jpg' %}" alt="Author Photo">
+                            <a class="manbi-btn" href="#">Download CV</a>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-7">
+                        <div class="author-name fadeInUp wow">
+                            <h2 class="author-title">Liton Kumar Biswas</h2>
+                            <h4>WEB DEVELOPER</h4>
+                            <div class="divider"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis vero veniam corporis
+                                aut numquam ullam, laborum expedita. Eaque, illum, aut.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aliquam nemo,
+                                perspiciatis vero, natus officia? </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                <div class="author-ifno fadeInUp wow">
+                    <h2 class="author-title">Personal Info</h2>
+                    <div class="divider"></div>
+                    <div class="BioData">
+                        <table>
+                            <tr>
+                                <td class="padding-top">NAME <span>:</span></td>
+                                <td class="padding-top">Liton Kumar Biswas</td>
+                            </tr>
+                            <tr>
+                                <td>DATE OF BIRTH <span>:</span></td>
+                                <td>12/10/1997</td>
+                            </tr>
+                            <tr>
+                                <td>ADDRESS <span>:</span></td>
+                                <td>
+                                    Dhanmondi,Dhaka,Bangladesh<br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>PHONE <span>:</span></td>
+                                <td> +8801771974774</td>
+                            </tr>
+                            <tr>
+                                <td>EMAIL <span>:</span></td>
+                                <td>litonbiswas1997@gmail.com</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+    Personal Quality Section
+===================================== -->
+<section id="experiacne">
+    <div class="container">
+        <div class="experiacneArea">
+            <h2 class="section-title fadeInUp wow">Author Experiacne</h2>
+            <div class="divider fadeInUp wow"></div>
+            <div class="row">
+                <div class="col-md-5 col-sm-6">
+                    <div class="QualityLeft fadeInUp wow">
+                        <h4>Programming <span>Skills</span></h4>
+                        <div class="ProgressBarArea">
+                            <h3>PHP <span>90%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar slideInLeft wow" data-wow-delay=".2s" data-wow-duration="2.2s"
+                                     role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 90%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ProgressBarArea">
+                            <h3>MySQL <span>80%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar slideInLeft wow" data-wow-delay=".4s" data-wow-duration="2.4s"
+                                     role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 80%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ProgressBarArea">
+                            <h3>Javascripts <span>45%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar slideInLeft wow" data-wow-delay=".6s" data-wow-duration="2.6s"
+                                     role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 45%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ProgressBarArea">
+                            <h3>jQuery<span>70%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar slideInLeft wow" data-wow-delay=".8s" data-wow-duration="2.8s"
+                                     role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 70%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ProgressBarArea">
+                            <h3>HTML5<span>90%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar slideInLeft wow" data-wow-delay="1s" data-wow-duration="3s"
+                                     role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 90%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-6 col-md-offset-2">
+                    <div class="QualityLeft QualityLeft_mobile fadeInUp wow">
+                        <h4>Graphics & media <span>Skills</span></h4>
+                        <div class="ProgressBarArea">
+                            <h3>CSS3 <span>90%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar slideInLeft wow" data-wow-delay=".2s" data-wow-duration="2.2s"
+                                     role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 90%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ProgressBarArea">
+                            <h3>Photoshop <span>80%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar slideInLeft wow" data-wow-delay=".4s" data-wow-duration="2.4s"
+                                     role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 80%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ProgressBarArea">
+                            <h3>Illustrator <span>45%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar slideInLeft wow" data-wow-delay=".6s" data-wow-duration="2.6s"
+                                     role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 45%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ProgressBarArea">
+                            <h3>Indesign<span>70%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar slideInLeft wow" data-wow-delay=".8s" data-wow-duration="2.8s"
+                                     role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 70%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ProgressBarArea">
+                            <h3>After effects<span>90%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar slideInLeft wow" data-wow-delay="1s" data-wow-duration="3s"
+                                     role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 90%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+    Portfolio Section
+===================================== -->
+<section id="portfolio" class="spacing">
+    <div class="container">
+        <h2 class="section-title text-center wow fadeInUp">portfolio</h2>
+        <div class="divider divider-center wow fadeInUp"></div>
+        <div class="portfoioArea">
+            <div class="main-area wow fadeInUp">
+                <div class="mixitup-control">
+                    <ul>
+                        <li class="filter" data-filter="all">All</li>
+                        <li class="filter" data-filter=".Web-Design">WebDesign</li>
+                        <li class="filter" data-filter=".Web-Deveolopment">Photoghraphy</li>
+                        <li class="filter" data-filter=".Geaphic-Design">Illustration</li>
+                    </ul>
+                </div>
+                <!-- Portfolio Item Start -->
+                <div id="Mixitup">
+                    <div class="mix Web-Design mixItUp-img" data-my-order="1">
+                        <div class="mix-single-item">
+                            <a href="{% static 'img/portfolio/1.jpg' %}" class="work-popup">
+                                <img src="{% static 'img/portfolio/1.jpg' %}" alt="">
+                                <div class="mix-caption mix-caption-table">
+                                    <div class="mix-caption-tcell">
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mix Web-Deveolopment mixItUp-img" data-my-order="2">
+                        <div class="mix-single-item">
+                            <a href="{% static 'img/portfolio/2.jpg' %}" class="work-popup">
+                                <img src="{% static 'img/portfolio/5.jpg' %}" alt="">
+                                <div class="mix-caption mix-caption-table">
+                                    <div class="mix-caption-tcell">
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mix Geaphic-Design mixItUp-img" data-my-order="3">
+                        <div class="mix-single-item">
+                            <a href="{% static 'img/portfolio/5.jpg' %}" class="work-popup">
+                                <img src="{% static 'img/portfolio/5.jpg' %}" alt="">
+                                <div class="mix-caption mix-caption-table">
+                                    <div class="mix-caption-tcell">
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mix Responsive-Design mixItUp-img" data-my-order="4">
+                        <div class="mix-single-item">
+                            <a href="{% static 'img/portfolio/5.jpg' %}" class="work-popup">
+                                <img src="{% static 'img/portfolio/5.jpg' %}" alt="">
+                                <div class="mix-caption mix-caption-table">
+                                    <div class="mix-caption-tcell">
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mix Landing-Page mixItUp-img" data-my-order="1">
+                        <div class="mix-single-item">
+                            <a href="{% static 'img/portfolio/5.jpg' %}" class="work-popup">
+                                <img src="{% static 'img/portfolio/5.jpg' %}" alt="">
+                                <div class="mix-caption mix-caption-table">
+                                    <div class="mix-caption-tcell">
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mix Web-Design mixItUp-img" data-my-order="1">
+                        <div class="mix-single-item">
+                            <a href="{% static 'img/portfolio/6.jpg' %}" class="work-popup">
+                                <img src="{% static 'img/portfolio/6.jpg' %}" alt="">
+                                <div class="mix-caption mix-caption-table">
+                                    <div class="mix-caption-tcell">
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item End -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+    Partner Section
+======================================= -->
+<section id="partner" class="spacing overlay_bg wow fadeInUp">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>OUR PARTNERS</h2>
+            <div class="divider divider-center"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="partner-slider" class="PSItem text-center owl-carousel owl-theme">
+                    <div class="item"><img src="{% static 'img/partner/1.jpg' %}" alt="Partner"></div>
+                    <div class="item"><img src="{% static 'img/partner/1.jpg' %}" alt="Partner"></div>
+                    <div class="item"><img src="{% static 'img/partner/1.jpg' %}" alt="Partner"></div>
+                    <div class="item"><img src="{% static 'img/partner/1.jpg' %}" alt="Partner"></div>
+                    <div class="item"><img src="{% static 'img/partner/1.jpg' %}" alt="Partner"></div>
+                    <div class="item"><img src="{% static 'img/partner/1.jpg' %}" alt="Partner"></div>
+                    <div class="item"><img src="{% static 'img/partner/1.jpg' %}" alt="Partner"></div>
+                    <div class="item"><img src="{% static 'img/partner/1.jpg' %}" alt="Partner"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+    Testimonial Section
+===================================== -->
+<section id="testimonials" class="spacing">
+    <div class="container">
+        <div class="testimonials-top text-center wow fadeInUp">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="divider divider-center"></div>
+        </div>
+        <div id="testimonial-slide" class="owl-carousel owl-theme wow fadeInUp">
+            <div class="item">
+                <div class="testimonial-item text-center">
+                    <img src="{% static 'img/testimonial/1.jpg' %}" alt="Testimonial-1">
+                    <h3>Robert S. Castillo<span>Web Developer</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita impedit non quasi iure eaque
+                        vitae in enim at quis! Dolor.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="testimonial-item text-center">
+                    <img src="{% static 'img/testimonial/2.jpg' %}" alt="Testimonial-1">
+                    <h3>Lucille A. Wilson<span>Grapichs designer</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita impedit non quasi iure eaque
+                        vitae in enim at quis! Dolor.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="testimonial-item text-center">
+                    <img src="{% static 'img/testimonial/3.jpg' %}" alt="Testimonial-1">
+                    <h3>John S. Hunter<span>Project manager</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita impedit non quasi iure eaque
+                        vitae in enim at quis! Dolor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+    Happy Clients Section
+===================================== -->
+<section id="happyClient" class="spacing overlay_bg">
+    <div class="container">
+        <div class="section-title text-center wow fadeInUp">
+            <h2>Happy Clients</h2>
+            <div class="divider divider-center"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="HCS-Item text-center wow fadeInUp">
+                    <i class="fa fa-line-chart"></i>
+                    <span class="counter">365</span>
+                    <h3>Complete Project</h3>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="HCS-Item text-center wow fadeInUp">
+                    <i class="fa fa-heart"></i>
+                    <span class="counter">141</span>
+                    <h3>Happy Clients</h3>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="HCS-Item text-center wow fadeInUp">
+                    <i class="fa fa-coffee"></i>
+                    <span class="counter">658</span>
+                    <h3>Cup of coffee</h3>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="HCS-Item text-center wow fadeInUp">
+                    <i class="fa fa-code"></i>
+                    <span class="counter">9297</span>
+                    <h3>line of codes</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+    Blog Section
+===================================== -->
+<section id="blog" class="spacing">
+    <div class="container">
+        <div class="text-center wow fadeInUp">
+            <h2 class="section-title">My Blog</h2>
+            <div class="divider divider-center"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="blog_single_item wow fadeInUp">
+                    <div class="blog_box_bg blog_box_bg_1"></div>
+                    <div class="blog_box">
+                        <div class="blog_meta">
+                            <span><i class="fa fa-calendar"></i> 15 April, 2017</span>
+                            <span><a href="#"><i class="fa fa-user"></i> Adimin</a></span>
+                        </div>
+                        <div class="blog_content">
+                            <h3><a href="../blog.html" target="_blank">The standard chunk of Lorem Ipsum.</a></h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout.</p>
+                            <a class="blog_btn manbi-btn" href="../blog.html">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog_single_item wow fadeInUp">
+                    <div class="blog_box_bg blog_box_bg_2"></div>
+                    <div class="blog_box">
+                        <div class="blog_meta">
+                            <span><i class="fa fa-calendar"></i> 15 April, 2017</span>
+                            <span><a href="#"><i class="fa fa-user"></i> Admin</a></span>
+                        </div>
+                        <div class="blog_content">
+                            <h3><a href="../blog.html" target="_blank">The standard chunk of Lorem Ipsum.</a></h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout.</p>
+                            <a class="blog_btn manbi-btn" href="../blog.html">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog_single_item wow fadeInUp">
+                    <div class="blog_box_bg blog_box_bg_3"></div>
+                    <div class="blog_box">
+                        <div class="blog_meta">
+                            <span><i class="fa fa-calendar"></i> 15 April, 2017</span>
+                            <span><a href="#"><i class="fa fa-user"></i> Adimin</a></span>
+                        </div>
+                        <div class="blog_content">
+                            <h3><a href="../blog.html" target="_blank">The standard chunk of Lorem Ipsum.</a></h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout.</p>
+                            <a class="blog_btn manbi-btn" href="../blog.html">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+    Contact Section
+===================================== -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-6">
+                <div class="contact-form spacing wow fadeInUp">
+                    <h3>Say Hello!</h3>
+                    <!-- Start Contact Form -->
+                    <form action="{% url 'index' %}" id="contact-form" method="post"> {% csrf_token %}
+                        <div class="width-50">
+                            <div class="contact-filed" id="name-field">
+                                <input class="form-control" id="form-name" type="text" name="form-name"
+                                       placeholder="Name" required="required">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <div class="contact-filed Right" id="email-field">
+                                <input class="form-control" id="form-email" type="email" name="form-email"
+                                       placeholder="Email" required="required">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                        </div>
+                        <div class="contact-filed" id="subject-field">
+                            <input class="form-control" id="form-subject" type="text" name="form-subject"
+                                   placeholder="Subject" required="required">
+                            <i class="fa fa-link"></i>
+                        </div>
+                        <div class="contact-filed text-filed" id="message-field">
+                            <textarea class="form-control" id="form-message" name="form-message" placeholder="Message"
+                                      required="required"></textarea>
+                            <i class="fa fa-pencil"></i>
+                        </div>
+                        <div class="contact-filed manbi-btn-filed">
+                            <button class="manbi-btn" type="submit">submit</button>
+                        </div>
+                    </form>
+                    <!-- End Contact Form -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="googleMap cd-google-map">
+        <div id="google-container"></div>
+        <div id="cd-zoom-in"></div>
+        <div id="cd-zoom-out"></div>
+    </div>
+</section>
+
+<!--
+    ScrollToTop
+============================= -->
+<div class="ScrollToTop">
+    <a href="#"><i class="fa fa-angle-up"></i></a>
+</div>
+
+<!--
+    Footer Section
+===================================== -->
+<footer id="footer" class="wow fadeIn">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="footer-copyihgt">
+                    &copy; All rights reserved © 2021 <span>Dipu</span>. Designed By <a
+                        href="#" target="_blank"><span>Dipu Biswas</span> </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="social-link text-right">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--
+    Plugins JS
+==================================== -->
+<script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/bootstrap-3.3.7.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.mixitup.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/modernizr.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/waypoints.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.counterup.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/owl.carousel.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcTTWvVJPW54aA5PEWrQTldVBFDhC0c-Q"></script>
+<script type="text/javascript" src="{% static 'js/google-map.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/wow.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.sticky.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.easing.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.parallax-1.1.3.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/typed.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/contact-form.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/particles.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/app.js' %}"></script>
+<!--
+    Custom Js
+==================================== -->
+<script type="text/javascript" src="{% static 'js/active.js' %}"></script>
+</body>
+</html>
